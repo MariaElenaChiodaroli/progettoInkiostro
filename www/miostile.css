@@ -1,0 +1,201 @@
+html, body{
+  background-color:#dedfe0;
+
+}
+
+.container{
+  display: flex;
+	align-items: CENTER; /* Align items vertically */
+	justify-content:FLEX-END; /* Distribute items horizontally */
+	background-color: #117ee5;
+	position:sticky;
+	top: 0;
+	width:100%;
+	border-radius:30px;
+	
+}
+
+label{ font-family:calibri;
+
+}
+
+.STAMPE {
+	display:FLEX;
+	align-items:LEFT;
+	justify-content:FLEX-START;
+	flex-direction:COLUMN;
+	
+	
+}
+.Logo {
+	margin-right: 20px; /* Adjust spacing between the logo and navigation */
+  }
+  
+  .logo{
+	width: 100%; /* Adjust the width of the logo */
+	height: auto; /* Maintain aspect ratio */
+	border-radius:30px;
+	
+  }
+  
+ .rapid{
+justify-content: space-between;
+  border: 10;
+  float: right;
+  border-radius:45%;
+  position:relative;
+width:50px;
+height:auto;
+margin-left: 3px;
+margin-right: 3px;
+  }
+  
+ .categorie{
+ display: FLEX;
+ FLEX:2;
+  align-items: center;
+ justify-content:space-around;
+ WIDTH:AUTO;
+ FLEX-WRAP:WRAP;
+ 
+ }
+
+ 
+.product-image{
+width:250px;
+height:250px;
+margin-top:15PX;
+
+   	
+}
+
+  h3{
+	font-family:cooper;
+	font-size:40;
+  }
+  h2{ 
+  font-family:cooper;
+  font-size:14;
+  }
+  H1{
+	  font-family:cooper;
+	  font-size:35;
+	  	  
+  }
+  p{ 
+	font-family:calibri;
+	font-size:15;
+	
+  }
+  
+.DETAIL-IMAGE {
+	width: 300px;
+	height:AUTO;
+	margin-left: 50PX;
+	margin-bottom: 30PX;
+	margin-top: 15PX;
+	
+}
+.DETTAGLIO{ width:100%;
+		display: flex;
+		flex-direction: row;
+		justify-content:space-around;
+		}
+
+.DES {
+display:FLEX;
+	FLEX-GROW:2;
+	justify-content:CENTER;
+	FLEX-direction:COLUMN;
+	border-left:5PX;
+	border-left-color:#FFFFFF;
+	margin-left:50px;
+	
+	}
+.button { border-radius:45%;
+}
+
+.add {
+display:FLEX;
+	align-items:FLEX-END;
+	justify-content:FLEX-END;
+	FLEX-direction:ROW;
+
+ }
+ .contatti {
+	background-color: #117ee5;
+	bottom: 0;
+	width: 100%;
+	justify-content:space-between;
+	border-radius:30px;
+ }
+ .icone {
+	 width:30px;
+	 height:30px;
+	 border-radius:50%;
+ }
+ .preferiti {
+	 width:100px;
+	 height:100px;
+ }
+ .product-car {
+	 width:200px;
+	 height:200px;
+	 margin-top:10px;
+	 margin-left:10px;
+ }
+ .intestazione { font-size:25;}
+ .precar {
+display:FLEX;
+	justify-content:space-around;
+	FLEX-direction:COLUMN;
+	align-items:space-around;
+	
+	}
+	.car { 
+	
+	display:FLEX;
+	FLEX-GROW:2;
+	justify-content:flex;
+	FLEX-direction:column;
+	margin-top:15px;
+	margin-right:15px;
+	margin-left:15px;
+	
+			
+	}
+	.prezzo { 
+	font-size:25;
+	margin-LEFT: 15px;
+	}
+	#R { font-size:40;
+		justify-content:RIGHT;
+		align-items:right;
+	font-family:COOPER;}
+	
+	.qnt { width: 100px;
+	background-color:#dedfe0;
+	border: none;
+	}
+		
+	
+		
+ 	 
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
